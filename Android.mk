@@ -35,6 +35,8 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
 LOCAL_SDK_VERSION := current
 LOCAL_MIN_SDK_VERSION := 24
 
+LOCAL_OVERRIDES_PACKAGES := DeskClock
+
 include $(BUILD_PACKAGE)
 
 # Use the following include to make our test apk.
